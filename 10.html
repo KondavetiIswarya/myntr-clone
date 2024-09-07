@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon-like Homepage</title>
+    <link rel="stylesheet" href="10.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+                <img src="https://cdn.dribbble.com/userupload/8472055/file/still-e5f6fffe336f1bd541d22cd55a91cb24.gif?resize=400x0" alt="Amazon Logo">
+            </div>
+            <div class="deliver-to">
+                <img src="data:image/png;base64,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" alt="Location" class="location-icon">
+                <div class = "text-stack">
+                    <span>Deliver to Iswarya</span>
+                    <strong>Tenali 522201</strong>
+                </div>
+            </div>
+            <div class="search">
+                <select>
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag">
+                    <span>EN</span>
+                </div>
+                <div class="account">
+                    <div class ="text-stack">
+                    <span>Hello, Iswarya</span>
+                    <strong>Account & Lists</strong>
+                </div>
+                </div>
+                <div class="returns">
+                    <div class ="text-stack">
+                    <span>Returns</span>
+                    <strong>& Orders</strong>
+                    </div>
+                </div>
+                <div class="cart">
+                    <img src="https://media.wired.com/photos/59325eba9be5e55af6c246eb/master/pass/amazoncart-feat.jpg" alt="Cart" class="cart-icon">
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+        <nav class="bottom-header">
+            <a href="#"><i class="fas fa-bars"></i> All</a>
+            <a href="#">Fresh</a>
+            <a href="#">Today's Deals</a>
+            <a href="#">Prime</a>
+            <a href="#">Amazon miniTV</a>
+            <a href="#">Sell</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Gift Ideas</a>
+            <a href="#">Amazon Pay</a>
+            <a href="#">Buy Again</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <img src="https://images.indianexpress.com/2024/07/Amazon-Prime-Day-Sale-2024.jpeg" alt="Hero Image">
+        </section>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71NLn5pFHzL.AC_SY145.jpg" alt="Product 1">
+                <h3>Polyester Blend Full Sleeve Crop Top-Cofee</h3>
+                <p>₹399.00</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71g1XD8X70L.AC_SY145.jpg" alt="Product 2">
+                <h3>GRECIILOOKS Women's Regular Fit Top</h3>
+                <p>₹479.00</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51biPQD+BSL.AC_SY145.jpg" alt="Product 3">
+                <h3>NooHy Heart Printed Round Collar Half Sleeve Crop Top</h3>
+                <p>₹288.00</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/41sWLaVAXHL.AC_SY145.jpg" alt="Product 4">
+                <h3>Casual Wear Round Neck Full Sleeves Solid Crop Top</h3>
+                <p>₹349.00</p>
+            </div>
+	
+
+	
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amazon-like. All rights reserved.</p>
+    </footer>
+</body>
+</html>
